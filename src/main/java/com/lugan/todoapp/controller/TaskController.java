@@ -34,4 +34,5 @@ public class TaskController {
     public void deleteTask(@PathVariable Long id) {
         taskService.deleteTaskById(id);
     }
+
 }
